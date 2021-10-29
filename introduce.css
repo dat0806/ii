@@ -1,0 +1,50 @@
+body{
+  font-size: 1.5em;
+}
+
+h1, p{
+  margin: 0;
+}
+
+.box{
+}
+
+.item{
+  float: left;
+  box-sizing:border-box;
+  padding: 5%;
+}
+
+.item-a{
+  width: 33.33%;
+  background-color: white;
+  text-align:center;
+  background-image: url(sample/샘플1.jpg);
+  background-position: center;
+  background-size: 100%;
+}
+
+.item-bg{
+  height: 500px;
+  background-image: url(sample/허영웅2.jpg);
+  background-size: 100%;
+  background-position: center;
+}
+
+.item-b{
+  width: 33.33%;
+  background-color: coral;
+  text-align:center;
+  background-image: url(sample/샘플2.jpg);
+  background-position: center;
+  background-size: 100%;
+}
+
+.item-c{
+  width: 33.33%;
+  background-color: green;
+  text-align:center;
+  background-image: url(sample/샘플3.jpg);
+  background-position: center;
+  background-size: 100%;
+}
