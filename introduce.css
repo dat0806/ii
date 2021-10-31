@@ -2,38 +2,30 @@ body{
   font-size: 1.5em;
 }
 
-h1, p{
-  margin: 0;
+h1, p, a{
+  text-align: center;
 }
 
 .box{
+  padding-bottom: 1000px;
 }
 
 .item{
   float: left;
   box-sizing:border-box;
-  padding: 5%;
+  padding: 14%;
 }
 
 .item-a{
   width: 33.33%;
-  background-color: white;
   text-align:center;
   background-image: url(sample/샘플1.jpg);
   background-position: center;
   background-size: 100%;
 }
 
-.item-bg{
-  height: 500px;
-  background-image: url(sample/허영웅2.jpg);
-  background-size: 100%;
-  background-position: center;
-}
-
 .item-b{
   width: 33.33%;
-  background-color: coral;
   text-align:center;
   background-image: url(sample/샘플2.jpg);
   background-position: center;
@@ -42,9 +34,78 @@ h1, p{
 
 .item-c{
   width: 33.33%;
-  background-color: green;
   text-align:center;
   background-image: url(sample/샘플3.jpg);
   background-position: center;
   background-size: 100%;
+}
+
+.box-head{
+  padding-bottom: 500px;
+}
+
+.intro-head{
+  margin-bottom: 50px;
+
+}
+
+#intro{
+
+}
+
+#intro1 #intro2 #intro3{
+  text-align: center;
+}
+
+#intro1 a{
+  display: block;
+  margin-bottom: 50px;
+}
+
+.grid-intro1{
+  text-align: center;
+  display:grid;
+  grid-template-columns: 444px 2fr;
+  padding-left: 500px;
+  padding-right: 500px;
+}
+
+.grid-iam ol{
+  border-bottom: 1px solid black;
+}
+
+#intro2 a{
+  display: block;
+  margin-bottom: 50px;
+}
+
+.grid-intro2{
+  display:grid;
+  grid-template-columns: 440px 2fr;
+  padding-left: 500px;
+  padding-right: 500px;
+}
+
+#intro3 a{
+  display: block;
+  margin-bottom: 50px;
+}
+
+.grid-intro3{
+  display:grid;
+  grid-template-columns: 440px 2fr;
+  padding-left: 500px;
+  padding-right: 500px;
+}
+
+.ing{
+  text-align: center;
+}
+.last{
+  text-align: center;
+  padding-top: 500px;
+}
+
+.contact{
+  text-align: center;
 }
